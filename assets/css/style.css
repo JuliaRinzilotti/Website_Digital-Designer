@@ -427,13 +427,20 @@ section:nth-of-type(5) article a:hover + h4 {
 
 /* ======================= Section 7 ======================= */
 
-section:nth-of-type(7) p {
+section:nth-of-type(7) a {
     text-align: center;
     font-size: 16rem;
     font-family: 'Didact Gothic', sans-serif;
-    margin: 14rem; 
+    text-decoration: none;
+    color: black;
+    line-height: 30rem;
+}
+
+section:nth-of-type(7) ul {
+    text-align: center;
 }
 
 
-/* ======================= Hover ======================= */
-
+section:nth-of-type(7) a:hover {
+    text-decoration: underline 1.4rem;
+}
